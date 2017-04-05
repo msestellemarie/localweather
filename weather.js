@@ -65,7 +65,7 @@ function icon(condition){
     case "nt_clear":
     case "nt_sunny":
       $("body").css("background-color","#4064a2");
-      return "<img src='/localweather/Icons/ntclear.png'>";
+      return "<img src='/Icons/ntclear.png'>";
     case "nt_mostlycloudy":
     case "nt_mostlysunny":
     case "nt_partlycloudy":

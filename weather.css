@@ -57,20 +57,20 @@ a, a:hover, a:focus, a:active, a:visited {
   right: 0;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
   body {
-    font-size: 40px;
+    font-size: 25px;
   }
   .city {
-    font-size: 36px;
+    font-size: 22.5px;
   }
 
   .temp {
-    font-size: 60px;
+    font-size: 37.5px;
   }
   .footer {
-    font-size: 24px;
+    font-size: 15px;
   }
   .weather-icon img {
-    width: 60%;
+    width: 50%;
 }
