@@ -7,71 +7,71 @@ function icon(condition){
     case "flurries":
     case "snow":
       $("body").css("background-color", day);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/snow.png'>";
+      return "<img src='/Icons/snow.png'>";
     case "nt_chanceflurries":
     case "nt_chancesnow":
     case "nt_flurries":
     case "nt_snow":
       $("body").css("background-color", night);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/snow.png'>";
+      return "<img src='/Icons/snow.png'>";
     case "chancerain":
     case "rain":
       $("body").css("background-color", day);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/rain.png'>";
+      return "<img src='/Icons/rain.png'>";
     case "nt_chancerain":
     case "nt_rain":
       $("body").css("background-color", night);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/rain.png'>";
+      return "<img src='/Icons/rain.png'>";
     case "chancesleet":
     case "sleet":
       $("body").css("background-color", day);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/sleet.png'>";
+      return "<img src='/Icons/sleet.png'>";
     case "nt_chancesleet":
     case "nt_sleet":
       $("body").css("background-color", night);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/sleet.png'>";
+      return "<img src='/Icons/sleet.png'>";
     case "chancetstorms":
     case "tstorms":
       $("body").css("background-color", day);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/tstorms.png'>";
+      return "<img src='/Icons/tstorms.png'>";
     case "nt_chancetstorms":
     case "nt_tstorms":
       $("body").css("background-color", night);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/tstorms.png'>";
+      return "<img src='/Icons/tstorms.png'>";
     case "clear":
     case "sunny":
       $("body").css("background-color", day);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/clear.png'>";
+      return "<img src='/Icons/clear.png'>";
     case "cloudy":
       $("body").css("background-color", day);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/cloudy.png'>";
+      return "<img src='/Icons/cloudy.png'>";
     case "nt_cloudy":
       $("body").css("background-color", night);
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/cloudy.png'>";
+      return "<img src='/Icons/cloudy.png'>";
     case "fog":
     case "hazy":
       $("body").css("background-color","#6fa2ff");
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/fog.png'>";
+      return "<img src='/Icons/fog.png'>";
     case "nt_fog":
     case "nt_hazy":
       $("body").css("background-color","#4064a2");
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/fog.png'>";
+      return "<img src='/Icons/fog.png'>";
     case "mostlycloudy":
     case "partlycloudy":
     case "mostlysunny":
     case "partlysunny":
       $("body").css("background-color","#6fa2ff");
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/partlycloudy.png'>";
+      return "<img src='/Icons/partlycloudy.png'>";
     case "nt_clear":
     case "nt_sunny":
       $("body").css("background-color","#4064a2");
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/ntclear.png'>";
+      return "<img src='/Icons/ntclear.png'>";
     case "nt_mostlycloudy":
     case "nt_mostlysunny":
     case "nt_partlycloudy":
     case "nt_partlysunny":
       $("body").css("background-color","#4064a2");
-      return "<img src='http://www.msestellemarie.com/wp-content/uploads/2017/04/ntpartlycloudy.png'>";
+      return "<img src='/Icons/ntpartlycloudy.png'>";
   }
 }
 
